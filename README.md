@@ -17,7 +17,7 @@ User or the creator of the private instance will have the chance to set the curr
 
 Templates will decide the features set that will be available to the instance, depending on the setting
 
-#### Planned Core Features 
+### Planned Core Features 
 - Personal Highlights (Personal posts / blogs)
 - Event planning ( Shared Calendar showing the group's memeber availability)
 - Music sharing ( converted to the selected music app / platfrom)
