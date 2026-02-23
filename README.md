@@ -1,6 +1,6 @@
 ## Kinharbour
 
-Kinharbour is a personal project to build an invite-only self-contained social hub for small groups (friends/family/significant others/housemates/teams), delivered as a dedicated private instance. It plans on replacing noisy social media with a calm, private space for sharing updates, planning events, and keeping track of the little things in life while keeping ownership of your data in the hands of the user.
+Kinharbour is a personal project aiming to build an invite-only self-contained social hub for small groups (friends/family/significant others/housemates/teams), delivered as a dedicated private instance. It plans on replacing noisy social media with a calm, private space for sharing updates, planning events, and keeping track of the little things in life while keeping ownership of your data in the hands of the user.
 
 ## Planned Concept
 
