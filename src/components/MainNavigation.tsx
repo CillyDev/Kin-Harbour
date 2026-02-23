@@ -5,8 +5,8 @@ import { CookContent, crochetContent, gameCornerContent, LoveContent, musicConte
 
 export function MainNavigation() {
   return (
-      <NavigationMenu className="flex w-full h-full relative">
-        <NavigationMenuList className="flex w-full h-full gap-x-2">
+      <NavigationMenu className="flex w-full h-full">
+        <NavigationMenuList className="flex w-full h-full">
           <NavbarMenuItem
             content={musicContent}
             icon="/images/record.png"

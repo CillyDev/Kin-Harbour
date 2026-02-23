@@ -16,6 +16,7 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-server-dom-turbopack": "^19.2.0",
+    "shadcn": "^3.8.5",
     "tailwind-merge": "^3.4.0",
     "vercel": "^48.12.0"
   },

@@ -13,7 +13,7 @@ const NavbarMenuItem = ({
 }: NavbarMenuItemProps): ReactNode => {
   return (
     <NavigationMenuItem>
-      <NavigationMenuTrigger className="h-full w-full rounded-md bg-background hover:bg-[#272727] active:bg-[#272729] px-[8px]">
+      <NavigationMenuTrigger className="h-full w-full rounded-md bg-background hover:bg-[#272727] active:bg-[#272729] px-2">
         <span className="shrink-0 h-full w-fit items-center gap-2 flex whitespace-nowrap " >
           <span className="h-[30px] w-[30px]">
             <Image src={icon} alt="icon" width={30} height={30} />
