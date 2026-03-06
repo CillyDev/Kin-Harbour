@@ -1,3 +1,4 @@
+[Deutsch](#deutsch)
 # Kinharbour
 
 Kinharbour is a personal project exploring the idea of a private social hub for small groups elivered as a dedicated private instance. My goal is to create a space that replaces the noisy social media with a calm, private bubble for sharing updates, planning events, and keeping track of the little things in life. All while keeping the data owndership with the user and help me exlore the tecnical concepts as I learn and improve as I go. 
@@ -43,7 +44,19 @@ Templates will decide the features set that will be available to the instance, d
 - Deployment: Kubernetes
 
 
-# Kinharbour
+
+
+
+
+
+
+
+---
+
+
+# Deutsch
+
+# Kinharbour 
 
 Kinharbour ist ein persönliches Projekt, das die Idee eines privaten Social Hubs für kleine Gruppen als dedizierte, private Instanz erkundet. Mein Ziel ist es, einen Raum zu schaffen, der das laute und überladene Social Media durch eine ruhige, private Umgebung ersetzt. Hier können Nutzer Updates teilen, Events planen und die kleinen Dinge im Alltag festhalten. Gleichzeitig bleibt die Datenhoheit beim Nutzer und ich kann mithilfe des Projekts technische Konzepte besser verstehen und meine Fachkenntnisse Schritt für Schritt erweitern.
 
@@ -77,7 +90,7 @@ Die Templates legen fest, welche Funktionsbereiche der Instanz zur Verfügung st
 
 Geteilte Ressourcen/Links
 
-# **Geplante optionale Funktionen (abhängig vom gewählten Template):**
+## **Geplante optionale Funktionen (abhängig vom gewählten Template):**
 
 - Intimacy Journal (nur für das Paar-Template)
 
