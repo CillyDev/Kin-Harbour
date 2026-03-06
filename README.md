@@ -64,7 +64,7 @@ Eine dedizierte Instanz für eine kleine Gruppe von Nutzern, die vollständig vo
 
 Der Nutzer bzw. der Ersteller der privaten Instanz kann ein Template auswählen, das den aktuellen Zweck der Gruppe widerspiegelt.
 
-- Paare/
+- Paare
 - Familie
 - Teams/Projekte
 - Freunde/Communities
