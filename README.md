@@ -44,17 +44,13 @@ Templates will decide the features set that will be available to the instance, d
 - Deployment: Kubernetes
 
 
-
-
-
-
-
-
+<br>
+<br>
 
 ---
 
 
-# Deutsch
+<a id="deutsch"></a>
 
 # Kinharbour 
 
@@ -68,13 +64,10 @@ Eine dedizierte Instanz für eine kleine Gruppe von Nutzern, die vollständig vo
 
 Der Nutzer bzw. der Ersteller der privaten Instanz kann ein Template auswählen, das den aktuellen Zweck der Gruppe widerspiegelt.
 
-Paare/Partner
-
-Familie
-
-Teams/Projekte
-
-Freunde/Communities
+- Paare/Partner
+- Familie
+- Teams/Projekte
+- Freunde/Communities
 
 Die Templates legen fest, welche Funktionsbereiche der Instanz zur Verfügung stehen – abhängig vom jeweiligen Kontext.
 
