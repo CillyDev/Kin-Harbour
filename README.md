@@ -1,12 +1,12 @@
 # Kinharbour
 
-Kinharbour is a personal project aiming to build an invite-only self-contained social hub for small groups (friends/family/significant others/housemates/teams), delivered as a dedicated private instance. It plans on replacing noisy social media with a calm, private space for sharing updates, planning events, and keeping track of the little things in life while keeping ownership of your data in the hands of the user.
+Kinharbour is a personal project exploring the idea of a private social hub for small groups elivered as a dedicated private instance. My goal is to create a space that replaces the noisy social media with a calm, private bubble for sharing updates, planning events, and keeping track of the little things in life. All while keeping the data owndership with the user and help me exlore the tecnical concepts as I learn and improve as I go. 
 
 ## **Planned Concept**
 
-### **Private instance model (Single-tenant SaaS)**
+### **Single-tenant as a service (SaaS)**
 
-A dedicated instance for a small group of users clossed off from the outside. Accessable only through generated keys ( Invite only). Every instance has a unique Tenant ID, and each invited person receives a unique User ID that is securely associated with that Tenant ID upon accepting the invite, or upon instance creation.
+A dedicated instance for a small group of users clossed off from the outside. Accessable only through generated keys (Invite only). Every instance will have a unique Tenant ID, and each invited member receives a unique User ID that is securely associated with the group's Tenant ID upon accepting the invite, or upon instance creation.
 
 ## **Templates**
 
@@ -41,3 +41,61 @@ Templates will decide the features set that will be available to the instance, d
 - Database: PostgreSQL / Elasticsearch
 - Auth: WebAuthn
 - Deployment: Kubernetes
+
+
+# Kinharbour
+
+Kinharbour ist ein persönliches Projekt, das die Idee eines privaten Social Hubs für kleine Gruppen als dedizierte, private Instanz erkundet. Mein Ziel ist es, einen Raum zu schaffen, der das laute und überladene Social Media durch eine ruhige, private Umgebung ersetzt. Hier können Nutzer Updates teilen, Events planen und die kleinen Dinge im Alltag festhalten. Gleichzeitig bleibt die Datenhoheit beim Nutzer und ich kann mithilfe des Projekts technische Konzepte besser verstehen und meine Fachkenntnisse Schritt für Schritt erweitern.
+
+## **Geplantes Konzept: Single-Tenant as a Service (SaaS)**.
+
+Eine dedizierte Instanz für eine kleine Gruppe von Nutzern, die vollständig von der Außenwelt abgeschottet ist. Der Zugang erfolgt ausschließlich über generierte Schlüssel (nur per Einladung). Jede Instanz erhält eine eindeutige Tenant-ID und jedes eingeladene Mitglied eine eigene User-ID. Diese wird beim Annehmen der Einladung oder bei der Erstellung der Instanz sicher mit der Tenant-ID der Gruppe verknüpft.
+
+## Templates
+
+Der Nutzer bzw. der Ersteller der privaten Instanz kann ein Template auswählen, das den aktuellen Zweck der Gruppe widerspiegelt.
+
+Paare/Partner
+
+Familie
+
+Teams/Projekte
+
+Freunde/Communities
+
+Die Templates legen fest, welche Funktionsbereiche der Instanz zur Verfügung stehen – abhängig vom jeweiligen Kontext.
+
+## **Geplante Kernfunktionen**:
+
+- Persönliche Highlights (Posts/kurze Blogs)
+
+- Eventplanung (gemeinsamer Kalender mit Verfügbarkeiten der Gruppenmitglieder)
+
+- Musik teilen (automatische Anpassung an die gewählte Musik-App/Plattform)
+
+- Medien teilen
+
+Geteilte Ressourcen/Links
+
+# **Geplante optionale Funktionen (abhängig vom gewählten Template):**
+
+- Intimacy Journal (nur für das Paar-Template)
+
+Hobby-Ecke (für Paare/Partner und Freunde)
+
+Relationship Retrospective: Lieblingsdates und besondere Momente (Paare/Partner)
+
+„Keepsakes”: Lieblingsorte, gemeinsame Erlebnisse oder Erinnerungen (Paare/Partner, Freunde & Communities, Familie)
+
+## **Tech Stack**:
+
+Frontend: React, Next.js, TypeScript
+
+Backend: Python
+
+Datenbank: PostgreSQL/Elasticsearch
+
+Authentifizierung: WebAuthn
+
+Deployment: Kubernetes
+
