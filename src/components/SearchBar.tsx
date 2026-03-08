@@ -1,6 +1,5 @@
 import Image from "next/image";
-import ShadcnInput from "../shadcn-manual-comp/ShadInput";
-
+import { Input } from "./ui/input";
 
 export default function SearchBar() {
   return (
@@ -9,11 +8,11 @@ export default function SearchBar() {
         <Image src="/images/search.png" alt="icon" width={22} height={22} />
       </span>
       <span className="h-auto w-full">
-        <ShadcnInput
+        <Input
           type="search"
           className="pl-11 pb-1.75 rounded-full border-[#6906d3ab] pt-[4px] placeholder:text-[#edededc0]"
           placeholder="Looking for something? .. "
-        ></ShadcnInput>
+        ></Input>
       </span>
     </div>
   );
