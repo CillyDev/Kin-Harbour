@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [Deutsch](#deutsch)
 # Kinharbour
 
