@@ -1,7 +1,7 @@
 [Deutsch](#deutsch)
 # Kinharbour
 
-Kinharbour is a personal project exploring the idea of a private social hub for small groups delivered as a dedicated private instance. My goal is to create a space that replaces noisy social media with a calm, private bubble for sharing updates, planning events, and keeping track of the little things in life—all while keeping data ownership with the user and helping me explore technical concepts as I learn and improve as I go
+Kinharbour is a personal project exploring the idea of a private social hub for small groups delivered as a dedicated private instance. My goal is to create a space that replaces noisy social media with a calm, private bubble for sharing updates, planning events, and keeping track of the little things in life all while keeping data ownership with the user and helping me explore technical concepts as I learn and improve as I go
 
 ## **Planned Concept**
 
