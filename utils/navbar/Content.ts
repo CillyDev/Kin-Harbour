@@ -1,25 +1,6 @@
 import { NavSubContent } from "../types/navBarTypes";
 
-export const crochetContent: NavSubContent[] = [
-  {
-    title: "Current Projects",
-    href: "/tabs/crochet-soulmates/current-projects",
-    description: "Keeping each other Updated with our Current Crochet Projects",
-    imgSrc: "/images/knitting.png",
-  },
-  {
-    title: "Pattern Vault",
-    href: "/tabs/crochet-soulmates/pattern-vault",
-    description: "Ah yes. The Patterns Vault. Our Pdf Tressure Chest!",
-    imgSrc: "/images/vault.png",
-  },
-  {
-    title: "Result Gallery",
-    href: "/tabs/crochet-soulmates/result-gallery",
-    description: "Share your results, Flex your Plushies. Plan your next move",
-    imgSrc: "/images/art-museum.png",
-  },
-];
+
 
 export const gameCornerContent: NavSubContent[] = [
   {

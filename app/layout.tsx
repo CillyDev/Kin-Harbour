@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "next-themes";
+import { ModeToggle } from "../components/ui/DarkmodeToggle";
 import { cn } from "@/lib/utils";
+import { SidebarProvider, SidebarTrigger } from "../components/ui/sidebar";
+import { AppSidebar } from "../components/AppSidebar";
 
 const inter = Inter({subsets:['latin'],variable:'--font-sans'});
 
@@ -28,9 +32,22 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={cn("h-full", "w-full", "antialiased", geistSans.variable, geistMono.variable, "font-sans", inter.variable)}
+      suppressHydrationWarning
+      className={cn("h-full", "w-full", geistSans.variable, geistMono.variable, "font-sans", inter.variable)}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full w-full grid grid-cols-23 grid-rows-23">
+        <ThemeProvider attribute={"class"} defaultTheme="system" enableSystem>
+          <div className="grid row-start-1 row-end-2 col-start-24 col-end-24">
+          <ModeToggle />
+          </div>
+          <SidebarProvider>
+      <AppSidebar />
+      <main>
+        <SidebarTrigger />
+        {children}
+      </main>
+    </SidebarProvider>
+          </ThemeProvider></body>
     </html>
   );
 }
