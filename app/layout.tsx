@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
-import { ModeToggle } from "../components/ui/DarkmodeToggle";
 import { cn } from "@/lib/utils";
 import { SidebarProvider, SidebarTrigger } from "../components/ui/sidebar";
 import { AppSidebar } from "../components/AppSidebar";
 
-const inter = Inter({subsets:['latin'],variable:'--font-sans'});
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,21 +33,25 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={cn("h-full", "w-full", geistSans.variable, geistMono.variable, "font-sans", inter.variable)}
+      className={cn("min-h-full w-full overflow-x-hidden", geistSans.variable, geistMono.variable, "font-sans", inter.variable)}
     >
-      <body className="min-h-full w-full grid grid-cols-23 grid-rows-23">
-        <ThemeProvider attribute={"class"} defaultTheme="system" enableSystem>
-          <div className="grid row-start-1 row-end-2 col-start-24 col-end-24">
-          <ModeToggle />
-          </div>
+      <body>
+
+        <ThemeProvider attribute={"class"} defaultTheme="system" enableSystem >
+
           <SidebarProvider>
-      <AppSidebar />
-      <main>
-        <SidebarTrigger />
-        {children}
-      </main>
-    </SidebarProvider>
-          </ThemeProvider></body>
+            <AppSidebar />
+            <main className="min-h-full min-w-full grid grid-cols-23 grid-rows-23">
+              <SidebarTrigger />
+              {children}
+
+            </main>
+          </SidebarProvider>
+
+        </ThemeProvider>
+
+
+      </body>
     </html>
   );
 }
